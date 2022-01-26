@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.debug {
+    border: solid 1px black;
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.slider {
+    width: 50%;
+    min-height: 500px;
+}
+
+.slider-2 {
+    width: 10%;
+    min-height: 500px;
+}
