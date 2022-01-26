@@ -15,12 +15,37 @@
     justify-content: center;
 }
 
-.slider {
-    width: 50%;
-    min-height: 500px;
+.center {
+    width: 80%;
+    display: flex;
 }
 
-.slider-2 {
-    width: 10%;
-    min-height: 500px;
+.slider-l {
+    width: 80%;
+    background-color: cadetblue;
+    height: 400px;
 }
+
+.slider-r {
+    width: 20%;
+    background-color: crimson;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+}
+
+.slider-l img {
+    width: 100%;
+    height: 400px;
+}
+
+
+.item {
+    height: 80px;
+}
+
+.item img {
+    width: 100%;
+    height: 80px;
+}
+
